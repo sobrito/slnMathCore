@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="slnMathCore">
+      <df name="control">
+        <in>slnMathCoreFunctions.c</in>
+        <in>slnMathCoreFunctions.h</in>
+        <in>slnString.c</in>
+        <in>slnString.h</in>
+      </df>
+      <df name="ext">
+        <df name="lex">
+          <in>dictionary.latex.tab.c</in>
+          <in>dictionary.latex.tab.h</in>
+          <in>lex.dictionary.latex.c</in>
+        </df>
+        <df name="struct">
+          <in>LinkedList.c</in>
+          <in>LinkedList.h</in>
+          <in>List.h</in>
+          <in>Node.c</in>
+          <in>Node.h</in>
+          <in>Queue.c</in>
+          <in>Queue.h</in>
+          <in>Stack.c</in>
+          <in>Stack.h</in>
+        </df>
+      </df>
+      <df name="model">
+        <in>MathOperation.c</in>
+        <in>MathOperation.h</in>
+        <in>MathResult.c</in>
+        <in>MathResult.h</in>
+        <in>MathUnit.c</in>
+        <in>MathUnit.h</in>
+        <in>slnMathCoreSymbol.c</in>
+        <in>slnMathCoreSymbol.h</in>
+      </df>
+      <in>main.c</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>root@lunarinterativa.com:22</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

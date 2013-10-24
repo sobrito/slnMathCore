@@ -1,11 +1,11 @@
-#include <model/Math.h>
+#include <model/MathUnit.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 
 int uadCompare(void *a, void *b) {
-    struct uad *o1 = (struct uad *) a;
-    struct uad *o2 = (struct uad *) b;
+    struct MathUnit *o1 = (struct MathUnit *) a;
+    struct MathUnit *o2 = (struct MathUnit *) b;
 
     if (o1 == NULL || o2 == NULL) {
 
@@ -25,18 +25,18 @@ int uadCompare(void *a, void *b) {
 }
 
 char * uadToString(void *a) {
-    struct uad *o1 = (struct uad *) a;
+    struct MathUnit *o1 = (struct MathUnit *) a;
     return NULL;
 }
 
 void uadDestroy(void *a) {
-    struct uad *o1 = (struct uad *) a;
+    struct MathUnit *o1 = (struct MathUnit *) a;
 
 }
 
-struct uad *uadCreateEmpty() {
-    struct uad *u = NULL;
-    if ((u = (struct uad *) malloc(sizeof *u)) == NULL) {
+struct MathUnit *uadCreateEmpty() {
+    struct MathUnit *u = NULL;
+    if ((u = (struct MathUnit *) malloc(sizeof *u)) == NULL) {
         perror("malloc");
         return NULL;
     }

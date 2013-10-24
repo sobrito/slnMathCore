@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="slnMathCore">
+      <df name="control">
+        <in>slnMathCoreFunctions.c</in>
+        <in>slnMathCoreFunctions.h</in>
+        <in>slnString.c</in>
+        <in>slnString.h</in>
+      </df>
+      <df name="ext">
+        <df name="lex">
+          <in>dictionary.latex.tab.c</in>
+          <in>dictionary.latex.tab.h</in>
+          <in>lex.dictionary.latex.c</in>
+        </df>
+        <df name="struct">
+          <in>LinkedList.c</in>
+          <in>LinkedList.h</in>
+          <in>List.h</in>
+          <in>Node.c</in>
+          <in>Node.h</in>
+          <in>Queue.c</in>
+          <in>Queue.h</in>
+          <in>Stack.c</in>
+          <in>Stack.h</in>
+        </df>
+      </df>
+      <df name="model">
+        <in>MathOperation.c</in>
+        <in>MathOperation.h</in>
+        <in>MathResult.c</in>
+        <in>MathResult.h</in>
+        <in>MathUnit.c</in>
+        <in>MathUnit.h</in>
+        <in>slnMathCoreSymbol.c</in>
+        <in>slnMathCoreSymbol.h</in>
+      </df>
+      <in>main.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="control/slnMathCoreFunctions.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="control/slnMathCoreFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="control/slnString.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="control/slnString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/lex/dictionary.latex.tab.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/lex/dictionary.latex.tab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/lex/lex.dictionary.latex.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/struct/LinkedList.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/struct/LinkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/struct/List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/struct/Node.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/struct/Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/struct/Queue.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/struct/Queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ext/struct/Stack.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="ext/struct/Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="slnMathCore">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="slnMathCore/control">
+        <cTool>
+          <incDir>
+            <pElem>control</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="slnMathCore/ext/lex">
+        <cTool>
+          <incDir>
+            <pElem>ext/lex</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="slnMathCore/ext/struct">
+        <cTool>
+          <incDir>
+            <pElem>ext/struct</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="slnMathCore/model">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="model/MathOperation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="model/MathOperation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="model/MathResult.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="model/MathResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="model/MathUnit.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="model/MathUnit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="model/slnMathCoreSymbol.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="model/slnMathCoreSymbol.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
